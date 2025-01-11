@@ -6,3 +6,5 @@
 
 gpgconf --kill gpg-agent
 gpg --symmetric --cipher-algo AES256 $1
+
+echo "Encrypted File Stored As $1.gpg"
