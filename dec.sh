@@ -11,3 +11,4 @@ output_file="${1%.gpg}"
 # Decrypt the file and save it with the original filename (without .gpg extension)
 gpg --output "$output_file" --decrypt "$1"
 
+echo "Decrypted File Stored in $output_file"
