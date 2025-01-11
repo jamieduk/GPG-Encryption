@@ -1,0 +1,53 @@
+
+GPG Encryption & Decryption By J~Net 2025
+
+
+
+Passphrase to decrypt the included test file! (test.txt.gpg)
+
+testpass123
+
+dec.sh "test.txt.gpg"
+
+
+to encrypt a file
+
+./enc.sh "filename.ext"
+
+Put in passphrase for both enc and dec!
+
+Please Note:
+(Pass will NOT be cached as the agent is killed for added security)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Here's an example of how to use symmetric encryption with GPG Manually:
+
+Encrypting a file with GPG in symmetric mode:
+
+gpg --symmetric --cipher-algo AES256 filename
+
+This will prompt you to enter a passphrase, and it will create an encrypted file with the same name as the original file but with a .gpg extension.
+
+Decrypting the file:
+
+gpg --decrypt filename.gpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
