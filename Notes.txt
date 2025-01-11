@@ -1,6 +1,6 @@
-
 GPG Encryption & Decryption By J~Net 2025
 
+https://github.com/jamieduk/GPG-Encryption
 
 
 Passphrase to decrypt the included test file! (test.txt.gpg)
